@@ -1,6 +1,11 @@
+# OSX
+#
+.Trashes
+.DS_Store
+*.swp
+
 # Xcode
 #
-.DS_Store
 build/
 *.pbxuser
 !default.pbxuser
@@ -17,6 +22,10 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+
+# Xcode (suggested by stackoverflow)
+*~.nib
+
 
 # CocoaPods
 #
